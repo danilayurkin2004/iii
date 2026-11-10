@@ -1,0 +1,542 @@
+[
+ {
+  "file": "html/head.html",
+  "sourceLines": [
+   1,
+   5
+  ],
+  "lines": 5,
+  "description": "Строки 1–5: <head>, meta, title"
+ },
+ {
+  "file": "html/theme-script.js",
+  "sourceLines": [
+   6,
+   34
+  ],
+  "lines": 29,
+  "description": "Строки 6–34: inline-скрипт темы (light/dark/system) до первой отрисовки"
+ },
+ {
+  "file": "css/css-01-base-theme.css",
+  "sourceLines": [
+   35,
+   106
+  ],
+  "lines": 72,
+  "description": "Базовые стили, CSS-переменные тем, типографика, общие компоненты"
+ },
+ {
+  "file": "css/css-02-character-layout.css",
+  "sourceLines": [
+   107,
+   278
+  ],
+  "lines": 172,
+  "description": "Карточка персонажа: строки label/value/progress, характеристики"
+ },
+ {
+  "file": "css/css-03-sections-nav.css",
+  "sourceLines": [
+   279,
+   336
+  ],
+  "lines": 58,
+  "description": "Пять разделов, вкладка «Я», навигация и док"
+ },
+ {
+  "file": "css/css-04-market-city.css",
+  "sourceLines": [
+   337,
+   459
+  ],
+  "lines": 123,
+  "description": "Рынок, районы, предприятия, карточки покупок"
+ },
+ {
+  "file": "css/css-05-dock-responsive.css",
+  "sourceLines": [
+   460,
+   496
+  ],
+  "lines": 37,
+  "description": "Адаптив: высоты дока, крупные шрифты, safe areas, touch-цели"
+ },
+ {
+  "file": "css/css-06-map-header-misc.css",
+  "sourceLines": [
+   497,
+   578
+  ],
+  "lines": 82,
+  "description": "Карта района, компактная шапка, диалоги, креатив/интерьеры/гараж/жильё"
+ },
+ {
+  "file": "css/css-07-releases-ui.css",
+  "sourceLines": [
+   579,
+   631
+  ],
+  "lines": 53,
+  "description": "UI релизов 0.1.1–0.1.5: семья, отношения, бизнес, земля, accordions"
+ },
+ {
+  "file": "css/css-08-living-world.css",
+  "sourceLines": [
+   632,
+   649
+  ],
+  "lines": 18,
+  "description": "«Живой мир»: компактные карточки, мобильные панели"
+ },
+ {
+  "file": "html/body.html",
+  "sourceLines": [
+   650,
+   675
+  ],
+  "lines": 26,
+  "description": "Строки 650–675: разметка <body> — стартовый экран, шапка, main, навигация, диалоги, file input"
+ },
+ {
+  "file": "js/js-01-core-version.js",
+  "sourceLines": [
+   676,
+   688
+  ],
+  "lines": 13,
+  "description": "Версия приложения/сохранений, история релизов, склонения числительных"
+ },
+ {
+  "file": "js/js-02-world-countries.js",
+  "sourceLines": [
+   689,
+   713
+  ],
+  "lines": 25,
+  "description": "Справочник стран мира и региональные экономики (статические данные)"
+ },
+ {
+  "file": "js/js-03-economy-world.js",
+  "sourceLines": [
+   714,
+   722
+  ],
+  "lines": 9,
+  "description": "Мировая экономика: фазы циклов, секторы, ежегодные сдвиги цен/зарплат"
+ },
+ {
+  "file": "js/js-04-immigration.js",
+  "sourceLines": [
+   723,
+   778
+  ],
+  "lines": 56,
+  "description": "Миграция: группы стран, языки, визы, ВНЖ, допуски к работе"
+ },
+ {
+  "file": "js/js-05-appearance-style.js",
+  "sourceLines": [
+   779,
+   788
+  ],
+  "lines": 10,
+  "description": "Внешность: оттенки кожи, стилевые опции по полу"
+ },
+ {
+  "file": "js/js-06-business-brand.js",
+  "sourceLines": [
+   789,
+   794
+  ],
+  "lines": 6,
+  "description": "Брендинг бизнеса: логотипы, цвета, SVG-пути"
+ },
+ {
+  "file": "js/js-07-study-finance.js",
+  "sourceLines": [
+   795,
+   810
+  ],
+  "lines": 16,
+  "description": "Учебные кредиты, направления, мнения родителей, апелляции"
+ },
+ {
+  "file": "js/js-08-land-building.js",
+  "sourceLines": [
+   811,
+   830
+  ],
+  "lines": 20,
+  "description": "Земельные участки, зоны, планы застройки, этапы строительства"
+ },
+ {
+  "file": "js/js-09-business-model.js",
+  "sourceLines": [
+   831,
+   868
+  ],
+  "lines": 38,
+  "description": "Экономика бизнеса: стадии, типы, события, стартовые расходы"
+ },
+ {
+  "file": "js/js-10-institutions-jobs.js",
+  "sourceLines": [
+   869,
+   886
+  ],
+  "lines": 18,
+  "description": "Учебные заведения, расписания работы, юные вакансии, часы/оплата"
+ },
+ {
+  "file": "js/js-11-companies-children.js",
+  "sourceLines": [
+   887,
+   897
+  ],
+  "lines": 11,
+  "description": "Логотипы компаний + симуляция детей"
+ },
+ {
+  "file": "js/js-12-names.js",
+  "sourceLines": [
+   898,
+   1027
+  ],
+  "lines": 130,
+  "description": "Каталоги имён по странам, формы фамилий, гендер"
+ },
+ {
+  "file": "js/js-13-friendship.js",
+  "sourceLines": [
+   1028,
+   1041
+  ],
+  "lines": 14,
+  "description": "Лучший друг: доверие, предложения, действия"
+ },
+ {
+  "file": "js/js-14-aptitudes-social.js",
+  "sourceLines": [
+   1042,
+   1059
+  ],
+  "lines": 18,
+  "description": "Склонности + ядро социальных связей (романтика, очистка связей)"
+ },
+ {
+  "file": "js/js-15-kinship.js",
+  "sourceLines": [
+   1060,
+   1077
+  ],
+  "lines": 18,
+  "description": "Родственники: роли, создание, ежегодные события семьи"
+ },
+ {
+  "file": "js/js-16-story-people.js",
+  "sourceLines": [
+   1078,
+   1103
+  ],
+  "lines": 26,
+  "description": "Персонажи историй: роли, резолв актёров, персонализация событий"
+ },
+ {
+  "file": "js/js-17-childhood-events.js",
+  "sourceLines": [
+   1104,
+   1130
+  ],
+  "lines": 27,
+  "description": "События детства: определения, семейные события, выбор"
+ },
+ {
+  "file": "js/js-18-invitations-parties.js",
+  "sourceLines": [
+   1131,
+   1177
+  ],
+  "lines": 47,
+  "description": "Приглашения и вечеринки: активности, гости, входящие приглашения"
+ },
+ {
+  "file": "js/js-19-gifts-affection.js",
+  "sourceLines": [
+   1178,
+   1193
+  ],
+  "lines": 16,
+  "description": "Подарки и взаимные чувства: бюджеты, каталог, шанс романтики"
+ },
+ {
+  "file": "js/js-20-shop-products.js",
+  "sourceLines": [
+   1194,
+   1284
+  ],
+  "lines": 91,
+  "description": "Товары: одежда, электроника, покупки, ежегодный шопинг"
+ },
+ {
+  "file": "js/js-21-family-wealth.js",
+  "sourceLines": [
+   1285,
+   1301
+  ],
+  "lines": 17,
+  "description": "Достаток семьи, стандарт жизни, наследство, карманные деньги"
+ },
+ {
+  "file": "js/js-22-map-geometry.js",
+  "sourceLines": [
+   1302,
+   1330
+  ],
+  "lines": 29,
+  "description": "География карты: река, озеро, дороги, смежность, маршруты"
+ },
+ {
+  "file": "js/js-23-vehicles-motor.js",
+  "sourceLines": [
+   1331,
+   1361
+  ],
+  "lines": 31,
+  "description": "Транспорт: модели, дилеры, цены, ТО, ежегодная симуляция"
+ },
+ {
+  "file": "js/js-24-creative.js",
+  "sourceLines": [
+   1362,
+   1374
+  ],
+  "lines": 13,
+  "description": "Творчество: пути, доход, требования, обучение"
+ },
+ {
+  "file": "js/js-25-city-housing.js",
+  "sourceLines": [
+   1375,
+   1469
+  ],
+  "lines": 95,
+  "description": "Город: районы, жильё, цены аренды/покупки, транспорт, городские действия"
+ },
+ {
+  "file": "js/js-26-property-estates.js",
+  "sourceLines": [
+   1470,
+   1510
+  ],
+  "lines": 41,
+  "description": "Недвижимость: состояние, ремонт, поместья, строительство, продажи"
+ },
+ {
+  "file": "js/js-27-employment.js",
+  "sourceLines": [
+   1511,
+   1568
+  ],
+  "lines": 58,
+  "description": "Наёмная работа: треки, компании, вакансии, продвижение, годовой шаг"
+ },
+ {
+  "file": "js/js-28-internships-costs.js",
+  "sourceLines": [
+   1569,
+   1588
+  ],
+  "lines": 20,
+  "description": "Стажировки + стоимость действий + UI-флаги"
+ },
+ {
+  "file": "js/js-29-education-system.js",
+  "sourceLines": [
+   1589,
+   1636
+  ],
+  "lines": 48,
+  "description": "Школа/колледж/университет: плата, приём, финансирование, клубы"
+ },
+ {
+  "file": "js/js-30-portraits-persona.js",
+  "sourceLines": [
+   1637,
+   1706
+  ],
+  "lines": 70,
+  "description": "SVG-портреты + личность (черты, достижения, аватар)"
+ },
+ {
+  "file": "js/js-31-sponsorship.js",
+  "sourceLines": [
+   1707,
+   1731
+  ],
+  "lines": 25,
+  "description": "Спонсорство: спонсоры, офферы, доход, годовой шаг"
+ },
+ {
+  "file": "js/js-32-sport.js",
+  "sourceLines": [
+   1732,
+   1770
+  ],
+  "lines": 39,
+  "description": "Спорт: виды, уровни, часы, зарплата, потенциал, клуб"
+ },
+ {
+  "file": "js/js-33-residence-foreign.js",
+  "sourceLines": [
+   1771,
+   1799
+  ],
+  "lines": 29,
+  "description": "Резидентство и зарубежные активы: политика, архив переезда"
+ },
+ {
+  "file": "js/js-34-mobility-travel.js",
+  "sourceLines": [
+   1800,
+   1849
+  ],
+  "lines": 50,
+  "description": "Мобильность: паспорта, визы, поездки, переезды, командировки"
+ },
+ {
+  "file": "js/js-35-business-run.js",
+  "sourceLines": [
+   1850,
+   1919
+  ],
+  "lines": 70,
+  "description": "Ведение бизнеса: открытие, прогноз, политики, события, расчёт года"
+ },
+ {
+  "file": "js/js-36-save-validation.js",
+  "sourceLines": [
+   1920,
+   2128
+  ],
+  "lines": 209,
+  "description": "Валидация сохранений: схемы подсистем и миграции форматов"
+ },
+ {
+  "file": "js/js-37-career-progress.js",
+  "sourceLines": [
+   2129,
+   2209
+  ],
+  "lines": 81,
+  "description": "Карьера и прогресс: должности, подработки, клубы, навыки, forecast"
+ },
+ {
+  "file": "js/js-38-life-stages.js",
+  "sourceLines": [
+   2210,
+   2353
+  ],
+  "lines": 144,
+  "description": "Этапы жизни: activeLifeStages, eligibility, рецепты, сценарии стадий"
+ },
+ {
+  "file": "js/js-39-life-events.js",
+  "sourceLines": [
+   2354,
+   2433
+  ],
+  "lines": 80,
+  "description": "Пул событий жизни: stageEvents/lifeEvents, теги, выбор и применение"
+ },
+ {
+  "file": "js/js-40-urban-npc.js",
+  "sourceLines": [
+   2434,
+   2464
+  ],
+  "lines": 31,
+  "description": "Городская жизнь (проекты) + симуляция жизни NPC"
+ },
+ {
+  "file": "js/js-41-desires.js",
+  "sourceLines": [
+   2465,
+   2486
+  ],
+  "lines": 22,
+  "description": "Личные желания: каталог, запись, действие, удовлетворённость"
+ },
+ {
+  "file": "js/js-42-medical.js",
+  "sourceLines": [
+   2487,
+   2519
+  ],
+  "lines": 33,
+  "description": "Медицина: заболевания, страховка, доступ, лечение, ограничения"
+ },
+ {
+  "file": "js/js-43-household.js",
+  "sourceLines": [
+   2520,
+   2536
+  ],
+  "lines": 17,
+  "description": "Домохозяйство: партнёр, общий бюджет, обязанности, помощь"
+ },
+ {
+  "file": "js/js-44-living-world.js",
+  "sourceLines": [
+   2537,
+   2569
+  ],
+  "lines": 33,
+  "description": "Инициализация «живого мира» + вьюхи живого мира"
+ },
+ {
+  "file": "js/js-45-game-engine.js",
+  "sourceLines": [
+   2570,
+   2704
+  ],
+  "lines": 135,
+  "description": "Ядро игры: createLife, normalize, nextYear, choose, migrate, act, manage*"
+ },
+ {
+  "file": "js/js-46-views-art.js",
+  "sourceLines": [
+   2705,
+   2989
+  ],
+  "lines": 285,
+  "description": "Экраны интерфейса + SVG-арт интерьеров и транспорта"
+ },
+ {
+  "file": "js/js-47-render-devtools.js",
+  "sourceLines": [
+   2990,
+   3041
+  ],
+  "lines": 52,
+  "description": "Рендер, формат денег, transient-поля, режим разработчика"
+ },
+ {
+  "file": "js/js-48-app-bootstrap.js",
+  "sourceLines": [
+   3042,
+   3164
+  ],
+  "lines": 123,
+  "description": "$-хелперы, save/toast, run/render, старт, импорт/экспорт, обработчики"
+ },
+ {
+  "file": "html/closing.html",
+  "sourceLines": [
+   3165,
+   3165
+  ],
+  "lines": 1,
+  "description": "Строка 3165: </body></html>"
+ }
+]
