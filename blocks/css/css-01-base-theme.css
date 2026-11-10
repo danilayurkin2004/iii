@@ -1,3 +1,4 @@
+/* Shared palette: theme switching changes variables, never rewrites the page. */
 :root {
   color-scheme:light;
   --bg:#f5f5f0; --ink:#263e32; --muted:#607058; --line:#d1dac8;

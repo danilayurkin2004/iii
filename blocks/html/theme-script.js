@@ -26,4 +26,3 @@
   const changed=()=>{if(preference==='system')apply();};
   if(system.addEventListener)system.addEventListener('change',changed);else system.addListener(changed);
 })();
-<style>/* Shared palette: theme switching changes variables, never rewrites the page. */
