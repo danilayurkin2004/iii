@@ -1,0 +1,18 @@
+/* The living world uses compact cards and closed detail panels on mobile. */
+.world-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 20px}
+.world-card-grid>.section-card{margin:0;min-width:0;display:flex;flex-direction:column}
+.world-card-grid .button-row{margin-top:auto;padding-top:14px}
+.world-card-grid .outline{white-space:normal;overflow-wrap:anywhere}
+.world-option{padding:14px;border:1px solid var(--line);border-radius:10px;min-width:0}
+.world-option h4{margin:0 0 8px}.world-option p{font-size:12px;line-height:1.7}
+.world-option .outline{width:100%;margin-top:12px}
+.world-indicators{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:16px 0}
+.world-indicators>div{display:flex;flex-direction:column;gap:9px;text-align:center;padding:12px 6px;background:var(--surface-subtle);border-radius:10px;min-width:0}
+.world-indicators small{font-size:10px;line-height:1.5;color:var(--muted)}.world-indicators b{font-size:18px;font-variant-numeric:tabular-nums}
+.world-sector-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12px;line-height:1.7}
+.npc-life{padding:10px 12px;margin:12px 0;background:var(--surface-subtle);border-radius:9px}
+.npc-life summary{font-size:12px;cursor:pointer}.npc-life p,.npc-news{font-size:12px;line-height:1.8;overflow-wrap:anywhere}.npc-news{padding-left:18px}
+#householdLife{margin:16px 0}#householdLife select{max-width:100%}
+.desire-card>.outline{margin-top:14px}.desire-card .track{margin-bottom:12px}
+.persona-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:600px){.world-card-grid{grid-template-columns:minmax(0,1fr)}.world-sector-list{grid-template-columns:1fr}.world-indicators b{font-size:16px}.world-indicators{gap:6px}}

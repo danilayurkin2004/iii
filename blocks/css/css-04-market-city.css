@@ -1,0 +1,123 @@
+/* Marketplace, neighbourhoods and named enterprises */
+.market-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:28px 0 16px}
+.market-heading h3{font-size:23px;margin:5px 0}
+.market-heading>span{font-size:12px;color:var(--muted);white-space:nowrap}
+.market-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:20px}
+.market-filters label{min-width:0;margin:0;font-size:12px}
+.market-filters select,.market-filters input{width:100%;min-width:0;margin-top:6px;font:inherit;background:var(--field);border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--ink)}
+.market-filters input{font-size:14px}
+.property-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.property-card{border:1px solid var(--line);border-radius:17px;overflow:hidden;background:var(--surface);min-width:0}
+.property-thumb{height:130px;background:var(--surface-strong);position:relative;display:flex;align-items:center;justify-content:center}
+.property-thumb svg{width:200px;height:110px}
+.property-thumb>span{position:absolute;bottom:8px;left:12px;border-radius:20px;padding:4px 9px;font-size:10px;letter-spacing:.04em;background:var(--surface);color:var(--muted)}
+.district-center{background:var(--warning-bg)}
+.district-outskirts{background:var(--warning-bg)}
+.district-business{background:var(--stat-blue)}
+.district-suburbs{background:var(--surface-strong)}
+.property-body{padding:18px}
+.property-body h3,.vehicle-card h3{font-size:17px;line-height:1.4;margin:7px 0 12px}
+.listing-tag{font-size:9px;color:var(--muted);letter-spacing:.12em;font-weight:700}
+.listing-price{display:block;font-size:24px;line-height:1.35;color:var(--ink);margin:8px 0}
+.listing-price small{font-size:11px;font-weight:400;color:var(--muted)}
+.property-body p,.property-body>small{font-size:12px;line-height:1.8;color:var(--muted)}
+.property-body .button-row{margin-top:14px}
+.property-body .outline{flex:1}
+.owned-property{padding:15px 0;border-bottom:1px solid var(--line)}
+.owned-property:last-child{border:0}
+.vehicle-illustration{height:110px;background:var(--surface-subtle);border-radius:12px;display:flex;justify-content:center;margin-bottom:15px}
+.vehicle-illustration svg{width:220px;max-width:100%;height:110px}
+.vehicle-card{margin:0!important}
+.vehicle-icon{font-size:30px;color:var(--muted);float:right}
+.driving-progress{height:8px;background:var(--track);border-radius:20px;overflow:hidden;margin:8px 0}
+.driving-progress span{display:block;height:100%;background:var(--positive)}
+.driving-progress.practice span{background:var(--stat-amber)}
+.driving-school .button-row{margin-top:18px}
+.asset-tabs{position:relative;z-index:1}
+.city-map{position:relative;width:100%;aspect-ratio:10/7;border:1px solid var(--line);border-radius:18px;margin-bottom:22px;overflow:hidden;isolation:isolate}
+.city-map>svg{display:block;position:absolute;inset:0;width:100%;height:100%}
+.map-pin{position:absolute;transform:translate(-50%,-50%);border:0;background:none;padding:0;min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:2}
+.map-pin>span{display:grid;place-items:center;width:32px;height:32px;border:2px solid var(--marker-ink);border-radius:50%;background:var(--positive);color:var(--button-ink);font-size:17px;box-shadow:0 2px 6px var(--shadow)}
+.map-pin small{position:absolute;top:calc(50% + 17px);left:50%;transform:translateX(-50%);font-size:9px;line-height:1.3;white-space:nowrap;color:var(--ink);background:var(--surface);padding:2px 4px;border-radius:4px;pointer-events:none}
+.map-pin.home>span{background:var(--map-home)}
+.map-pin.work>span{background:var(--stat-blue)}
+.map-pin.selected{z-index:3}
+.map-pin.selected>span{outline:3px solid var(--focus);outline-offset:2px}
+.venue-shortcuts{display:flex;flex-wrap:wrap;gap:8px}
+.venue-shortcuts .outline{font-size:11px}
+.mini-avatar{flex:0 0 52px;width:52px;height:57px;border-radius:12px;overflow:hidden;background:var(--surface-subtle)}
+.mini-avatar svg{display:block;width:100%;height:100%}
+.person-heading{display:flex;align-items:center;gap:12px;margin-bottom:10px;min-width:0}
+.person-heading h3{min-width:0;margin:0!important;overflow-wrap:anywhere}
+.person-heading p{margin:5px 0 0!important}
+.child-record{display:grid!important;grid-template-columns:42px minmax(0,1fr);column-gap:12px;align-items:center}
+.child-record .mini-avatar{grid-row:span 2;width:42px;height:46px}
+.child-record span{grid-column:2}
+.enterprise-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:20px 0}
+.enterprise-metrics>span{background:var(--surface-subtle);padding:10px;border-radius:8px;font-size:11px;display:flex;justify-content:space-between;gap:8px}
+.company-name{font-size:16px!important;font-weight:600;color:var(--muted)!important}
+.career-ladder{display:flex;flex-direction:column;gap:0;margin:24px 0}
+.ladder-step{display:flex;gap:12px;align-items:center;color:var(--muted);position:relative;min-height:45px;padding:6px 0;font-size:12px}
+.ladder-step:before{content:"";position:absolute;left:13px;top:29px;bottom:-7px;width:2px;background:var(--line)}
+.ladder-step:last-child:before{display:none}
+.ladder-step>span{display:grid;place-items:center;width:28px;height:28px;background:var(--surface-subtle);border-radius:50%;flex-shrink:0;position:relative;z-index:1;font-size:11px}
+.ladder-step.current{color:var(--ink)}
+.ladder-step.current>span,.ladder-step.completed>span{background:var(--positive);color:var(--button-ink)}
+.ladder-step.current>b{font-size:14px}
+.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.course-grid .section-card{padding:16px!important;min-width:0}
+.course-grid h3{font-size:14px!important;line-height:1.5}
+.course-grid p{font-size:11px!important}
+.course-grid .outline{font-size:11px;padding:10px}
+.course-grid small{display:block;margin-top:10px;font-size:10px;line-height:1.6;color:var(--muted)}
+.vacancy-filters{grid-template-columns:repeat(2,minmax(0,1fr))}
+.search-label{grid-column:1/-1}
+.vacancy-board{margin-top:32px}
+.vacancy-card{display:flex;align-items:flex-start;gap:15px;padding:22px 18px;background:var(--surface);border:1px solid var(--line);border-radius:15px;margin:14px 0;min-width:0}
+.vacancy-brand{display:grid;place-items:center;width:42px;height:42px;flex:0 0 42px;background:var(--surface-subtle);border-radius:12px;font-size:16px;color:var(--muted);font-weight:700}
+.vacancy-main{min-width:0;flex:1}
+.vacancy-main h3{font-size:18px!important;line-height:1.4;margin:6px 0 10px!important;color:var(--ink)}
+.vacancy-salary{display:block;font-size:19px;color:var(--ink)}
+.vacancy-company{font-size:14px!important;font-weight:600}
+.vacancy-main p{font-size:12px;line-height:1.7;color:var(--muted)}
+.vacancy-tags{display:flex;flex-wrap:wrap;gap:6px}
+.vacancy-tags>span{font-size:10px;background:var(--surface-subtle);border-radius:5px;padding:5px 7px;color:var(--muted)}
+.vacancy-card .primary{font-size:12px;padding:11px 18px;border-radius:8px}
+.recruiter-inbox{border:1px solid var(--warning-line);background:var(--warning-bg);padding:20px;border-radius:16px;margin-bottom:20px}
+.recruiter-inbox>h3{font-size:20px}
+.recruiter-inbox>p{font-size:12px;color:var(--warning-ink)}
+.side-market{margin-top:25px}
+.side-market>summary{font-weight:600;cursor:pointer}
+.group-meeting .button-row{flex-wrap:wrap}
+
+@media(max-width:700px){.course-grid{grid-template-columns:1fr}
+.property-grid{gap:12px}
+.property-body{padding:14px}
+.listing-price{font-size:21px}
+.vacancy-card{padding:18px 14px;gap:10px}
+.vacancy-main h3{font-size:16px!important}
+.vacancy-brand{width:34px;height:34px;flex-basis:34px;font-size:13px}
+.market-filters{gap:8px}
+.market-filters select{padding:10px 7px;font-size:11px}
+.city-map{aspect-ratio:10/7}
+.map-pin>span{width:29px;height:29px;font-size:15px}
+.map-pin small{font-size:8px}
+.enterprise-metrics{gap:6px}
+.enterprise-metrics>span{font-size:10px;padding:8px}
+.market-heading h3{font-size:20px}
+.mini-avatar{flex-basis:46px;width:46px;height:51px}
+}
+
+@media(max-width:440px){.property-grid{grid-template-columns:1fr}
+.market-filters{grid-template-columns:1fr 1fr}
+.market-filters>label:last-child{grid-column:1/-1}
+.vacancy-filters>.search-label{grid-column:1/-1}
+.vacancy-filters>label:last-child{grid-column:auto}
+.city-map{border-radius:12px}
+.map-pin small{max-width:75px;white-space:normal;text-align:center}
+.enterprise-metrics{grid-template-columns:1fr 1fr}
+.vacancy-salary{font-size:17px}
+.asset-tabs button{font-size:11px!important;padding:12px 6px!important}
+}
+
+

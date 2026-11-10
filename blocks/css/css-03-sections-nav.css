@@ -1,0 +1,58 @@
+/* Five main sections, personal information only in the centered "Я" section. */
+nav [data-tab="me"]{font-size:23px}
+nav [data-tab="me"].active{background:var(--surface-strong);color:var(--ink)}
+.career-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
+.career-tabs button{min-width:0;padding:8px 3px;font-size:12px}
+.year-card{justify-content:center}
+.year-card button{margin:0;max-width:none;width:100%}
+.heading{margin-bottom:24px}
+#characterInfo{margin-bottom:24px}
+.traits{grid-template-columns:repeat(3,minmax(0,1fr))}
+.traits span{flex-direction:column;align-items:flex-start;gap:6px}
+@media(max-width:380px){.career-tabs{gap:3px;padding:4px}
+.career-tabs button{font-size:10px}
+.year-card button{min-width:0}
+.traits{gap:10px}
+.traits span{font-size:9px}
+}
+
+
+.avatar{height:auto;background:none;overflow:hidden;border-radius:14px}
+.avatar-portrait{width:100%;height:auto;display:block}
+.avatar-portrait.large{max-width:240px;margin:auto}
+.persona-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;background:var(--surface-subtle);padding:5px;border:1px solid var(--line);border-radius:12px;margin-bottom:20px}
+.persona-tabs button{background:none;border:0;border-radius:8px;color:var(--muted);font-size:11px;padding:8px 2px;min-width:0}
+.persona-tabs .active{background:var(--surface);color:var(--ink)}
+.avatar-studio>p{text-align:center}
+.avatar-groups{display:flex;gap:6px;margin:18px 0}
+.avatar-groups button{flex:1;padding:9px 5px;min-width:0}
+.avatar-groups .active{background:var(--surface-subtle)}
+.appearance-fields{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:20px}
+.appearance-colors{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.appearance-colors label{font-size:10px}
+.appearance-colors input{padding:3px;height:40px;min-height:40px}
+.check-label{display:flex!important;align-items:center;gap:10px;margin-top:20px}
+.check-label input{width:18px;min-height:18px;margin:0}
+.achievement-grid,.personality-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.achievement-grid .section-card,.personality-grid .section-card{margin:0}
+.achievement{opacity:.55}
+.achievement.unlocked{opacity:1;background:var(--surface-subtle);border-color:var(--line)}
+.achievement-icon{font-size:27px;color:var(--positive)}
+.achievement h3{font-size:14px}
+.achievement p{font-size:11px}
+.personality-grid h3{display:flex;justify-content:space-between;font-size:13px}
+.personality-grid h3 b{font-size:11px;font-weight:500}
+.personality-grid .track i{background:var(--positive)}
+.memory{border-left:3px solid var(--positive)}
+@media(max-width:380px){.persona-tabs button{font-size:9px}
+.appearance-fields{gap:10px}
+.appearance-colors{grid-template-columns:repeat(2,1fr)}
+.achievement-grid,.personality-grid{gap:8px}
+.achievement-grid .section-card,.personality-grid .section-card{padding:12px}
+.personality-grid h3{flex-direction:column;gap:7px}
+}
+
+
+
+
+

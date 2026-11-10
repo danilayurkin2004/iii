@@ -1,0 +1,37 @@
+/* Dynamic dock heights also work with larger text and device safe areas. */
+html{scroll-padding-bottom:calc(var(--dock-height) + 24px);background:var(--bg)}
+main{padding-bottom:calc(var(--dock-height) + 30px)}
+.year-card{bottom:calc(var(--nav-height) + 10px)}
+#toast{bottom:calc(var(--dock-height) + 16px);color:var(--toast-ink)}
+body.dialog-open #toast{bottom:20px}
+header{align-items:center}
+.header-controls{display:flex;align-items:center;justify-content:flex-end;gap:12px;letter-spacing:0}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;background:var(--surface-subtle);border:1px solid var(--line);border-radius:9px;color:var(--ink);font-size:11px;min-height:40px;padding:7px 10px;white-space:nowrap}
+.theme-toggle [data-theme-icon]{font-size:18px;line-height:1}
+.creation-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.creation-toolbar .theme-toggle{width:auto;margin:0;flex-shrink:0}
+.theme-settings label{display:block;font-size:12px}
+input,select{background:var(--field)}
+input::placeholder{color:var(--muted);opacity:1}
+#notificationError,#saveWarning{color:var(--negative);font-size:12px}
+.balance .negative-balance{color:var(--negative)}
+.check-label{min-height:44px}
+.person-heading .mini-avatar{flex-shrink:0}
+#content{min-width:0}
+.property-card,.vacancy-card{content-visibility:auto;contain-intrinsic-size:auto 350px}
+.map-pin[aria-pressed="true"]>span{outline:3px solid var(--focus);outline-offset:2px}
+@media(max-width:520px){input,select,.section-card select,.market-filters select,.market-filters input{font-size:16px}.header-controls{gap:8px}.saved{font-size:9px}.year-card{bottom:calc(var(--nav-height) + 8px)}}
+@media(max-width:360px){.header-controls{gap:5px}.theme-toggle{padding:6px 8px}.header-controls .saved{max-width:65px;line-height:1.5}}
+@media(forced-colors:active){.map-pin>span{border:2px solid ButtonText}.track,.driving-progress{border:1px solid CanvasText}}
+/* Readable text and touch targets, including enlarged system text. */
+nav button{min-width:0}
+nav button span{max-width:100%;overflow-wrap:anywhere;line-height:1.25}
+.theme-toggle,#randomName,#importFromCreation{min-height:44px}
+.appearance-colors input{height:44px;min-height:44px}
+.achievement{opacity:1}
+input,select,.market-filters select,.market-filters input{border-color:var(--outline)}
+
+html{scrollbar-gutter:stable}
+body.dialog-open{overflow:hidden}
+dialog{max-height:calc(100dvh - 24px)}
+input,select{scroll-margin-bottom:calc(var(--dock-height) + 20px)}
